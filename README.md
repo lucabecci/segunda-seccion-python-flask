@@ -32,7 +32,7 @@ verdadero = true
 
 Las listas en python son un conjunto de valores en una misma variables, ya sean integers, strings y booleans. Se pueden almacenar distintos tipos de datos en una misma lista. A continuación explico cada método:
 
-**Metodos para listas:**
+### **Metodos para listas:**
 
 - **.append()** ⇒ Se utiliza para agregar un dato al final de la lista.
 - **.clear()**  ⇒ Elimina todos los elementos de la lista.
@@ -40,16 +40,16 @@ Las listas en python son un conjunto de valores en una misma variables, ya sean 
 - **.count()** ⇒ Se utiliza para contar cuantas veces se repite un valor de la lista.
 - **lent(lista)** ⇒ Muestra la longitud de la lista pasada como parámetro.
 
-**Acceder a valores de una lista:**
+### **Acceder a valores de una lista:**
 
 - **lista[X]** ⇒ Donde X es el index de la lista para el valor que queremos ver de ese index. Las listas se indexan desde el valor 0.
 
-**Eliminando elementos de una lista:**
+### **Eliminando elementos de una lista:**
 
 - lista.pop() ⇒ Elimina el ultimo valor indexado de la lista.
 - **lista.remove(x)** ⇒ Elimina el index pasado como parametro X.
 
-**Reverse y Sort:** 
+### **Reverse y Sort:**
 
 - **lista.reverse()** ⇒ Cambia la lista y da vuelta sus valores, es decir, lo del index 0 pasa al ultimo index y el del ultimo index pasa al index0, y asi para los demás valores.
 - **lista.sort()** ⇒ Se utiliza para ordenar una lista de mayor a menor( IMPORTANTE => los datos deben de ser del mismo tipo, si no son del mismo tipo python nos mostrara un error).
@@ -84,12 +84,12 @@ print(lista)
 
 Las tuplas son una lista con datos con la diferencia de que una vez que se crean no pueden ser alteradas.
 
-**Métodos de tuplas:**
+### **Métodos de tuplas:**
 
 - **tupla.count(''hello")** ⇒ Busca y cuenta los valores que sean iguales al valor como parámetro.
 - **tuplas.index("world")** ⇒ Busca la posición del elemento pasado como parámetro.
 
-**¿Como transformamos una tupla a una lista?**
+### **¿Como transformamos una tupla a una lista?**
 
 Para transformar una tupla a una lista tenemos que usar el método: list(*`aca va el nombre de nuestra tupla`*). A continuación se muestra un ejemplo.
 
