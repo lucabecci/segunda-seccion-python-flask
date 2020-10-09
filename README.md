@@ -182,3 +182,7 @@ copiaDiccionario2 = dict(diccionario)
 #ambas formas son validas para la copia de un diccionario.
 print(diccionario, copiaDiccionario, diccionario)
 ```
+
+## 7. Diccionarios anidados:
+
+....
